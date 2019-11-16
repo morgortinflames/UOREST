@@ -1,0 +1,2883 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+	font-family: 'Dosis', cursive;
+}
+h1{
+	font-family: 'Bungee', cursive;
+}
+h2, h3{
+	font-family: 'Yanone Kaffeesatz', arial, cursive;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+ul {
+	list-style-type: none;
+}
+@media screen and (min-width: 1346px){
+/*HEADER KODLARI *****/
+header#mainHeader{
+	width: 100%;
+	height: 750px;
+	position: relative;
+	background: url(../images/back.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+div#contentHeader{
+	width: 100%;
+	height: 400px;
+	position: relative;
+
+}
+div#headerContainer{
+	width: 1246px;
+	height: 750px;
+	margin: auto;
+}
+div#ContentHeaderContainer{
+	width: 1246px;
+	height: 400px;
+	margin: auto;
+
+}
+div#headerTop{
+	width: 1246px;
+	height: 50px;
+	position: relative;
+}
+ul#ulTopLeft{
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+}
+ul#ulTopLeft li{
+	display: inline-block;
+	line-height: 50px;
+	border-right: 1px solid #95a5a6;
+	padding: 0 10px;
+}
+ul#ulTopLeft li:first-child{
+	padding-left: 0;
+}
+ul#ulTopLeft li:last-child{
+	border-right: 0;
+}
+ul#ulTopLeft li a{
+	text-decoration: none;
+	color:#95a5a6;
+}
+ul#ulTopLeft li a:hover{
+	color: #ffffff;
+}
+div#topRight{
+	height: 50px;
+	position: relative;
+	float: right;
+}
+div.topContactLogo{
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	float: left;
+	margin-left: 20px;
+}
+div.topContactText{
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	margin-left: 20px;
+	color: #95a5a6;
+}
+nav{
+	width: 100%;
+	height: 80px;
+	position: relative;
+	background: rgba(0,0,0,0.5);
+}
+div#navContainer{
+	width: 1246px;
+	height: 80px;
+	position: relative;
+	margin: auto;
+}
+div#navLogo{
+	font-family:'Bungee',cursive;
+	color: #ffffff;
+	font-size: 30px;
+	line-height: 80px;
+	display: inline;
+	float: left;
+}
+ul#ulNavRight{
+	list-style-type: none;
+	display: inline-block;
+	float: right;
+}
+ul#ulNavRight li{
+	display: inline-block;
+	line-height: 80px;
+	margin-left: 20px;
+}
+ul#ulNavRight li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+ul#ulNavRight li a:hover{
+	color: #95a5a6;
+}
+div#navMobileButton{
+	display: none;
+}
+ul#navMobile{
+	display: none;
+}
+div#headerText h1{
+	line-height: 80px;
+	font-size: 40px;
+	text-shadow: 5px 5px 10px #000000;
+}
+div#headerText h2{
+	line-height: 60px;
+	font-size: 40px;
+	text-shadow: 5px 5px 10px #000000;
+}
+div#headerText p{
+	line-height: 40px;
+	font-size: 20px;
+	display: inline-block;
+	background: rgba(0,0,0,0.5);
+	padding-right: 20px;
+	text-shadow: 1px 1px 1px #000000;
+}
+div#headerText{
+	margin-top:259px;
+	color: #ffffff;
+}
+a{
+	text-decoration: none;
+}
+div#headerButtons{
+	margin-top: 20px;
+}
+div#headerButtons a{
+	line-height: 60px;
+	border: 1px solid #ffffff;
+	display: inline-block;
+	color: #ffffff;
+	padding: 0 20px;
+	transition: all .2s ease-in-out;
+	text-shadow: 1px 1px 1px #000000;
+}
+div#headerButtons a:last-child{
+	margin-left: 20px;
+	background: #e74c3c;
+}
+div#headerButtons a:last-child:hover{
+	background: transparent;
+}
+div#headerButtons a:first-child:hover{
+	background: #e74c3c;
+}
+/* SECTION 1 BAŞLANGICI********/
+section.limitedSec{
+	width: 1246px;
+	position: relative;
+	margin: auto;
+	margin-top: 50px;
+}
+section.limitedSec h1, section.limitedSec h2{
+ 	text-align: center;
+} 
+section.limitedSec img{
+	width: 613px;
+	margin-top: 50px;
+	border: 1px solid #000000;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left;
+}
+section.limitedSec article{
+	width: 613px;
+	float: right;
+	margin-top: 50px;
+}
+div.iconBox img{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	margin-left: 296px;
+}
+section.limitedSec article p{
+	margin-top: 20px;
+	text-align: justify;
+}
+/* SECTION 2 BAŞLANGICI********/
+
+section.unlimitedSec{
+	width: 100%;
+	position: relative;
+	background: #000000;
+	margin-top: 50px;
+}
+section.unlimitedSec div#menuContainer{
+	width: 1246px;
+	height: 640px;
+	position: relative;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+section.unlimitedSec div#menuContainer img{
+	width: 300px;
+	height: 300px;
+	opacity: 0.5;
+}
+section.unlimitedSec div#menuContainer img:hover{
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	transform: scale(1.01);
+}
+section.unlimitedSec div#menuContainer div#menuLink{
+	width: 900px;
+	height: 300px;
+	position: absolute;
+	border: 1px solid #ffffff;
+	margin-top: 170px;
+	text-align: center;
+}
+section.unlimitedSec div#menuContainer div#menuLink h1{
+	color: white;
+	text-align: center;
+	line-height: 60px;
+	margin-top: 90px;
+}
+section.unlimitedSec div#menuContainer div#menuLink a{
+	width: 240px;
+	height: 60px;
+	border: 1px solid white;
+	display: inline-block;/*verdiğimiz yüksekliği alabilmesi için*/
+	color: white;
+	line-height: 60px;
+	font-size: 20px;
+	transition: all .2s ease-in-out;
+
+}
+section.unlimitedSec div#menuContainer div#menuLink a:hover{
+	background: #e74c3c;
+
+}
+/* SECTION 3 BAŞLANGICI********/
+section.limitedSec div#teamContainer{
+	width: 1200px;
+	margin:auto;
+	position: relative;
+}
+section.limitedSec div#teamContainer div.teamTile{
+	width: 350px;
+	height: 535px;
+	position: relative;
+	float: left;
+	margin-left: 37.5px;
+	overflow: hidden;
+	
+}
+section.limitedSec div#teamContainer div.teamTile img{
+	width: 350px;
+	height: 535px;
+
+}
+section.limitedSec div#teamContainer div.teamTile div.teamHover{
+	width: 350px;
+	height: 525px;
+	background: red;
+	position: absolute;
+	top: 50px;
+	left: -350px;
+	transition: all 0.5s ease;
+	background: url(../images/3.jpg);
+	opacity: 0.7;
+}
+section.limitedSec div#teamContainer div.teamTile:hover div.teamHover{
+	left: 0;
+}
+section.limitedSec div#teamContainer div.teamTile div.teamHover div.teamText{
+	background: #000000;
+	color: #ffffff;
+	line-height: 60px;
+	margin-top: 202.5px;
+	text-shadow: 1px 1px 1px #000000;
+}
+/*-- 4.SECTION BAŞLANGICI */
+section.unlimitedSec div.unlimitedSecContainer{
+	width: 1246px;
+	height: 650px;
+	position: relative;
+	margin:auto;
+	color: #ffffff;
+	text-align: center;
+
+}
+section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft{
+	width: 573px;
+	height: 650px;
+	position: relative;
+	float: left;
+	background: rgba(0,0,0,0.5);
+	text-shadow: 1px 1px 1px #000000;
+}
+div.unlimitedSecLeft h1{
+	font-size: 40px;
+	line-height: 80px;
+	margin-top: 134px;
+}
+div.unlimitedSecLeft h2{
+	font-size: 30px;
+	line-height: 60px;
+}
+div.unlimitedSecLeft p{
+	width: 500px;
+	font-size: 20px;
+	line-height: 32px;
+	margin: auto;
+	margin-top: 20px;
+}
+/*Hakkımızda sayfası***********/
+section.contentContainer{
+	width: 1246px;
+	margin:50px auto;
+	position: relative;
+
+}
+section.contentContainer h1{
+	text-align: center;
+}
+section.contentContainer p{
+	margin: 20px 0;
+	line-height: 25px;
+}
+/*İLETİŞİM SAYFASI BAŞLANGICI ******/
+div.contactParts{
+	width: 590px;
+	position: relative;
+	float: left;
+	margin-left: 22px;
+}
+div.contactParts h2{
+	margin-bottom: 20px;
+}
+div.contactParts input.input{
+	width: 290px;
+	height: 40px;
+	position: relative;
+	border: 1px solid #95a5a6;
+	box-sizing: border-box; /*290-40px olmasını sağladık*/
+	margin-top: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+div.contactParts input.inputLeft{
+	float: left;
+}
+div.contactParts input.inputRight{
+	float: right;
+}
+div.contactParts textarea{
+	width: 590px;
+	height: 320px;
+	position: relative;
+	border:1px solid #95a5a6;
+	margin-top: 20px;
+	box-sizing: border-box;
+	padding: 10px;
+	resize: none;
+	border-radius: 10px;
+}
+
+div.contactParts input.submit{
+	width: 290px;
+	height: 40px;
+	position: relative;
+	border: 1px solid #95a5a6;
+	box-sizing: border-box; /*290-40px olmasını sağladık*/
+	margin-top: 20px;
+	background: transparent;
+	margin-left: 150px;
+	transition: all .2s ease;
+	border-radius: 10px;
+
+}
+section.unlimitedSec iframe{
+	width: 100%;
+	height: 450px;
+	position: relative;
+
+}
+div.contactParts input.submit:hover{
+	cursor: pointer;
+	color: white;
+	background: #e74c3c;
+	border: 1px solid #e74c3c;
+}
+/*MENÜ BÖLÜMÜ */
+section.menuContainer{
+	width: 100%;
+	height: 400px;
+	position: relative;
+	background: #ff9f43;
+}
+section.menuContainer h1{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	text-shadow: 2px 2px black;
+	padding-top: 20px;
+}
+div.resim img{
+	width: 240px;
+	padding-left: 20px;
+	float: left;
+}
+div.fiyat{
+	float: left;
+	padding-left: 120px;
+	margin-top: 40px;
+	color: white;
+	
+}
+div.fiyat a{
+	border: 2px solid #e74c3c;
+	text-align: center;
+	padding: 8px;
+	text-decoration: none;
+	color: white;
+	
+
+}
+/* REZERVASYON */
+section.reservation{
+	width: 100%;
+	height: 500px;
+	padding-left: 50px;
+}
+section.reservation input{
+	border: 2px solid #e74c3c;
+	font-size: 15px;
+	margin-top: 20px;
+	border-radius: 5px;
+	padding:10px;
+
+}
+section.reservation h1{
+	text-align: left;
+}
+section.reservation textarea{
+	resize: none;
+	width: 196px;
+	height: 50px;
+	border: 2px solid #e74c3c;
+	margin-top: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	border-radius: 5px;
+
+}
+input.rez{
+	background: transparent;
+	padding: 12px;
+	border-radius: 5px;
+	margin: 10px;
+
+}
+/*PAKET SERVİS BÖLÜMÜ */
+form.package input{
+	margin-top: 20px;
+	margin-left: 20px;
+	border: 2px solid #e74c3c;
+	border-radius: 5px;
+	padding: 10px;
+}
+form.package label{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+h1#hh{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+input.yolla{
+	background: transparent;
+	border: 2px solid #e74c3c;
+	margin-left: 35px;
+	padding: 10px;
+	margin-bottom: 40px;
+	border-radius: 5px;
+}
+
+
+
+
+/*  FOOTER BÖLÜMÜ */
+footer{
+	width: 100%;
+	position: relative;
+	background-color: #1e272e;
+}
+div#footerContainer{
+	width: 1200px;
+	position: relative;
+	margin: auto;
+	padding: 100px 0;
+}
+div.footerBox{
+	width: 400px;
+	position: relative;
+	float: left;
+	text-align: center;
+	color: #ffffff;
+}
+div.footerBox h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 60px;
+	width: 350px;
+}
+div.footerBox h2{
+	font-size: 30px;
+	line-height: 60px;
+	border-bottom: 2px solid #e74c3c;
+	width: 350px;
+}
+div.footerBox p{
+	line-height: 30px;
+	text-align: left;
+	width: 350px;
+}
+div.footerBox input{
+	width: 350px;
+	height: 40px;
+	margin-top: 20px;
+	margin-right: 50px;
+}
+div#copyright{
+	width: 100%;
+	background: #000000;
+	color: #ffffff;
+	font-size: 14px;
+	padding: 20px 0;
+	text-align: center;
+}
+}
+
+/***********************960 PX KODLARI********************************/
+/**********************************************************************/
+/**********************************************************************/
+/************************************************************************/
+
+@media screen and (min-width: 960px) and (max-width: 1345px){
+
+/*HEADER KODLARI *****/
+header#mainHeader{
+	width: 100%;
+	height: 750px;
+	position: relative;
+	background: url(../images/back.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+div#contentHeader{
+	width: 100%;
+	height: 400px;
+	position: relative;
+
+}
+div#headerContainer{
+	width: 940px;
+	height: 750px;
+	margin: auto;
+}
+div#ContentHeaderContainer{
+	width: 940px;
+	height: 400px;
+	margin: auto;
+
+}
+div#headerTop{
+	width: 940px;
+	height: 50px;
+	position: relative;
+}
+ul#ulTopLeft{
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+}
+ul#ulTopLeft li{
+	display: inline-block;
+	line-height: 50px;
+	border-right: 1px solid #95a5a6;
+	padding: 0 10px;
+}
+ul#ulTopLeft li:first-child{
+	padding-left: 0;
+}
+ul#ulTopLeft li:last-child{
+	border-right: 0;
+}
+ul#ulTopLeft li a{
+	text-decoration: none;
+	color:#95a5a6;
+}
+ul#ulTopLeft li a:hover{
+	color: #ffffff;
+}
+div#topRight{
+	height: 50px;
+	position: relative;
+	float: right;
+}
+div.topContactLogo{
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	float: left;
+	margin-left: 20px;
+}
+div.topContactText{
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	margin-left: 20px;
+	color: #95a5a6;
+}
+nav{
+	width: 100%;
+	height: 80px;
+	position: relative;
+	background: rgba(0,0,0,0.5);
+}
+div#navContainer{
+	width: 940px;
+	height: 80px;
+	position: relative;
+	margin: auto;
+}
+div#navLogo{
+	font-family:'Bungee',cursive;
+	color: #ffffff;
+	font-size: 30px;
+	line-height: 80px;
+	display: inline;
+	float: left;
+}
+ul#ulNavRight{
+	list-style-type: none;
+	display: inline-block;
+	float: right;
+}
+ul#ulNavRight li{
+	display: inline-block;
+	line-height: 80px;
+	margin-left: 20px;
+}
+ul#ulNavRight li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+ul#ulNavRight li a:hover{
+	color: #95a5a6;
+}
+div#navMobileButton{
+	display: none;
+}
+ul#navMobile{
+   display: none;
+}
+div#headerText h1{
+	line-height: 80px;
+	font-size: 40px;
+	text-shadow: 5px 5px 10px #000000;
+}
+div#headerText h2{
+	line-height: 60px;
+	font-size: 40px;
+	text-shadow: 5px 5px 10px #000000;
+}
+div#headerText p{
+	line-height: 40px;
+	font-size: 20px;
+	display: inline-block;
+	background: rgba(0,0,0,0.5);
+	padding-right: 20px;
+	text-shadow: 1px 1px 1px #000000;
+}
+div#headerText{
+	margin-top:180px;
+	color: #ffffff;
+}
+a{
+	text-decoration: none;
+}
+div#headerButtons{
+	margin-top: 20px;
+}
+div#headerButtons a{
+	line-height: 60px;
+	border: 1px solid #ffffff;
+	display: inline-block;
+	color: #ffffff;
+	padding: 0 20px;
+	transition: all .2s ease-in-out;
+	text-shadow: 1px 1px 1px #000000;
+}
+div#headerButtons a:last-child{
+	margin-left: 20px;
+	background: #e74c3c;
+}
+div#headerButtons a:last-child:hover{
+	background: transparent;
+}
+div#headerButtons a:first-child:hover{
+	background: #e74c3c;
+}
+/* SECTION 1 BAŞLANGICI********/
+section.limitedSec{
+	width: 940px;
+	position: relative;
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+}
+section.limitedSec h1, section.limitedSec h2{
+ 	text-align: center;
+} 
+section.limitedSec img{
+	width: 613px;
+	margin-top: 50px;
+	border: 1px solid #000000;
+	padding: 10px;
+	box-sizing: border-box;
+	margin: auto;
+	
+}
+section.limitedSec article{
+	width: 613px;
+	margin:auto;
+	margin-top: 50px;
+}
+div.iconBox img{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	margin-left: 296px;
+}
+section.limitedSec article p{
+	margin-top: 20px;
+	text-align: justify;
+}
+/* SECTION 2 BAŞLANGICI********/
+
+section.unlimitedSec{
+	width: 100%;
+	position: relative;
+	background: #000000;
+	margin-top: 50px;
+}
+section.unlimitedSec div#menuContainer{
+	width: 940px;
+	height: 640px;
+	position: relative;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+section.unlimitedSec div#menuContainer img{
+	width: 235px;
+	height: 235px;
+	opacity: 0.5;
+}
+section.unlimitedSec div#menuContainer img:hover{
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	transform: scale(1.01);
+}
+section.unlimitedSec div#menuContainer div#menuLink{
+	width: 705px;
+	height: 300px;
+	position: absolute;
+	border: 1px solid #ffffff;
+	margin-top: 170px;
+	text-align: center;
+}
+section.unlimitedSec div#menuContainer div#menuLink h1{
+	color: white;
+	text-align: center;
+	line-height: 60px;
+	margin-top: 100px;
+}
+section.unlimitedSec div#menuContainer div#menuLink a{
+	width: 240px;
+	height: 50px;
+	border: 1px solid white;
+	display: inline-block;/*verdiğimiz yüksekliği alabilmesi için*/
+	color: white;
+	line-height: 50px;
+	font-size: 20px;
+	transition: all .2s ease-in-out;
+
+}
+section.unlimitedSec div#menuContainer div#menuLink a:hover{
+	background: #e74c3c;
+
+}
+/* SECTION 3 BAŞLANGICI********/
+section.limitedSec div#teamContainer{
+	width: 940px;
+	margin:auto;
+	position: relative;
+}
+section.limitedSec div#teamContainer div.teamTile{
+	width: 300px;
+	height: 525px;
+	position: relative;
+	float: left;
+	margin-left: 10px;
+	overflow: hidden;
+	
+}
+section.limitedSec div#teamContainer div.teamTile img{
+	width: 300px;
+	height: 450px;
+
+}
+section.limitedSec div#teamContainer div.teamTile div.teamHover{
+	width: 300px;
+	height: 450px;
+	background: red;
+	position: absolute;
+	top: 0px;
+	left: -300px;
+	transition: all 0.5s ease;
+	background: url(../images/3.jpg);
+	opacity: 0.7;
+}
+section.limitedSec div#teamContainer div.teamTile:hover div.teamHover{
+	left: 0;
+}
+section.limitedSec div#teamContainer div.teamTile div.teamHover div.teamText{
+	background: #000000;
+	color: #ffffff;
+	line-height: 60px;
+	margin-top: 175px;
+	text-shadow: 1px 1px 1px #000000;
+}
+/*-- 4.SECTION BAŞLANGICI */
+section.unlimitedSec div.unlimitedSecContainer{
+	width: 940px;
+	height: 500px;
+	position: relative;
+	margin:auto;
+	color: #ffffff;
+	text-align: center;
+
+}
+section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft{
+	width: 470px;
+	height: 500px;
+	position: relative;
+	float: left;
+	background: rgba(0,0,0,0.5);
+	text-shadow: 1px 1px 1px #000000;
+}
+div.unlimitedSecLeft h1{
+	font-size: 35px;
+	line-height: 80px;
+	margin-top: 75px;
+}
+div.unlimitedSecLeft h2{
+	font-size: 25px;
+	line-height: 60px;
+}
+div.unlimitedSecLeft p{
+	width: 450px;
+	font-size: 18px;
+	line-height: 28px;
+	margin: auto;
+	margin-top: 20px;
+}
+/*Hakkımızda sayfası***********/
+section.contentContainer{
+	width: 940px;
+	margin:50px auto;
+	position: relative;
+
+}
+section.contentContainer h1{
+	text-align: center;
+}
+section.contentContainer p{
+	text-align: justify;
+	margin: 20px 0;
+	line-height: 25px;
+}
+/*İLETİŞİM SAYFASI BAŞLANGICI ******/
+div.contactParts{
+	width: 590px;
+	position: relative;
+	margin: auto;
+	
+}
+div.contactParts h2{
+	margin-bottom: 20px;
+}
+div.contactParts input.input{
+	width: 290px;
+	height: 40px;
+	position: relative;
+	border: 1px solid #95a5a6;
+	box-sizing: border-box; /*290-40px olmasını sağladık*/
+	margin-top: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+div.contactParts input.inputLeft{
+	float: left;
+}
+div.contactParts input.inputRight{
+	float: right;
+}
+div.contactParts textarea{
+	width: 590px;
+	height: 320px;
+	position: relative;
+	border:1px solid #95a5a6;
+	margin-top: 20px;
+	box-sizing: border-box;
+	padding: 10px;
+	resize: none;
+	border-radius: 10px;
+}
+
+div.contactParts input.submit{
+	width: 290px;
+	height: 40px;
+	position: relative;
+	border: 1px solid #95a5a6;
+	box-sizing: border-box; /*290-40px olmasını sağladık*/
+	margin-top: 20px;
+	background: transparent;
+	margin-left: 150px;
+	transition: all .2s ease;
+	border-radius: 10px;
+
+}
+section.unlimitedSec iframe{
+	width: 100%;
+	height: 350px;
+	position: relative;
+}
+div.contactParts input.submit:hover{
+	cursor: pointer;
+	color: white;
+	background: #e74c3c;
+	border: 1px solid #e74c3c;
+}
+/*MENÜ BÖLÜMÜ */
+section.menuContainer{
+	width: 100%;
+	height: 400px;
+	position: relative;
+	background: #ff9f43;
+}
+section.menuContainer h1{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	text-shadow: 2px 2px black;
+	padding-top: 20px;
+}
+div.resim img{
+	width: 240px;
+	padding-left: 20px;
+	float: left;
+}
+div.fiyat{
+	float: left;
+	padding-left: 120px;
+	margin-top: 40px;
+	color: white;
+	
+}
+div.fiyat a{
+	border: 2px solid #e74c3c;
+	text-align: center;
+	padding: 8px;
+	text-decoration: none;
+	color: white;
+	
+
+}
+/* REZERVASYON */
+section.reservation{
+	width: 100%;
+	height: 500px;
+	padding-left: 50px;
+}
+section.reservation input{
+	border: 2px solid #e74c3c;
+	font-size: 15px;
+	margin-top: 20px;
+	border-radius: 5px;
+	padding:10px;
+
+}
+section.reservation h1{
+	text-align: left;
+}
+section.reservation textarea{
+	resize: none;
+	width: 196px;
+	height: 50px;
+	border: 2px solid #e74c3c;
+	margin-top: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	border-radius: 5px;
+
+}
+input.rez{
+	background: transparent;
+	padding: 12px;
+	border-radius: 5px;
+	margin: 10px;
+
+}
+/*PAKET SERVİS BÖLÜMÜ */
+form.package input{
+	margin-top: 20px;
+	margin-left: 20px;
+	border: 2px solid #e74c3c;
+	border-radius: 5px;
+	padding: 10px;
+}
+form.package label{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+h1#hh{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+input.yolla{
+	background: transparent;
+	border: 2px solid #e74c3c;
+	margin-left: 35px;
+	padding: 10px;
+	margin-bottom: 40px;
+	border-radius: 5px;
+}
+
+
+
+
+/*  FOOTER BÖLÜMÜ */
+footer{
+	width: 100%;
+	position: relative;
+	background-color: #1e272e;
+}
+div#footerContainer{
+	width: 940px;
+	position: relative;
+	margin: auto;
+	padding: 100px 0;
+}
+div.footerBox{
+	width: 313.3px;
+	position: relative;
+	float: left;
+	text-align: center;
+	color: #ffffff;
+}
+div.footerBox h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 60px;
+	width: 300px;
+}
+div.footerBox h2{
+	font-size: 30px;
+	line-height: 60px;
+	border-bottom: 2px solid #e74c3c;
+	width: 300px;
+}
+div.footerBox p{
+	line-height: 30px;
+	text-align: left;
+	width: 300px;
+}
+div.footerBox input{
+	width: 300px;
+	height: 40px;
+	margin-top: 20px;
+	margin-right: 50px;
+}
+div#copyright{
+	width: 100%;
+	background: #000000;
+	color: #ffffff;
+	font-size: 14px;
+	padding: 20px 0;
+	text-align: center;
+}
+}
+
+/*****************************************************************/
+/***********************720 px *********************************/
+/****************************************************************/
+
+
+@media screen and (min-width:720px) and (max-width:959px){
+
+
+/*HEADER KODLARI *****/
+header#mainHeader{
+	width: 100%;
+	height: 550px;
+	position: relative;
+	background: url(../images/back.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+div#contentHeader{
+	width: 100%;
+	height: 300px;
+	position: relative;
+
+}
+div#headerContainer{
+	width: 700px;
+	height: 500px;
+	margin: auto;
+}
+div#ContentHeaderContainer{
+	width: 700px;
+	height: 300px;
+	margin: auto;
+
+}
+div#headerTop{
+	width: 700px;
+	height: 40px;
+	position: relative;
+}
+ul#ulTopLeft{
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+}
+ul#ulTopLeft li{
+	display: inline-block;
+	line-height: 40px;
+	border-right: 1px solid #95a5a6;
+	padding: 0 10px;
+}
+ul#ulTopLeft li:first-child{
+	padding-left: 0;
+}
+ul#ulTopLeft li:last-child{
+	border-right: 0;
+}
+ul#ulTopLeft li a{
+	text-decoration: none;
+	color:#95a5a6;
+}
+ul#ulTopLeft li a:hover{
+	color: #ffffff;
+}
+div#topRight{
+	height: 40px;
+	position: relative;
+	float: right;
+}
+div.topContactLogo{
+	width: 30px;
+	height: 30px;
+	margin-top: 5px;
+	float: left;
+	margin-left: 20px;
+}
+div.topContactText{
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	margin-left: 20px;
+	color: #95a5a6;
+}
+nav{
+	width: 100%;
+	height: 60px;
+	position: relative;
+	background: rgba(0,0,0,0.5);
+
+}
+div#navContainer{
+	width: 700px;
+	height: 60px;
+	position: relative;
+	margin: auto;
+}
+div#navLogo{
+	font-family:'Bungee',cursive;
+	color: #ffffff;
+	font-size: 30px;
+	line-height: 80px;
+	display: inline;
+	float: left;
+}
+ul#ulNavRight{
+	list-style-type: none;
+	display: inline-block;
+	float: right;
+	display: none;
+}
+
+/* Desktop Nav
+ul#ulNavRight li{
+	display: inline-block;
+	line-height: 80px;
+	margin-left: 20px;
+}
+ul#ulNavRight li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+ul#ulNavRight li a:hover{
+	color: #95a5a6;
+}
+*********************************/
+/*NAV MOBILE***********/
+div#navMobileButton{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	float: right;
+	background: url(../images/menu.jpeg);
+	margin-top: 10px;
+}
+ul#navMobile{
+	width: 700px;
+	position: absolute;
+	top:60px;
+	background: #e74c3c;
+	display: none;
+	z-index: 1;
+}
+ul#navMobile li{
+	text-align: center;
+	border-bottom: 1px solid #ffffff;
+
+}
+ul#navMobile li:last-child{
+	border:0;
+}
+ul#navMobile a:hover{
+	background:#ffffff;
+	color: #e74c3c;
+}
+ul#navMobile li a{
+	width: 700px;
+	line-height: 45px;
+	color: white;
+	display: block;
+}
+div#headerText h1{
+	line-height: 80px;
+	font-size: 30px;
+	text-shadow: 5px 5px 10px #000000;
+}
+div#headerText h2{
+	line-height: 60px;
+	font-size: 30px;
+	text-shadow: 5px 5px 10px #000000;
+}
+div#headerText p{
+	line-height: 40px;
+	font-size: 18px;
+	display: inline-block;
+	background: rgba(0,0,0,0.5);
+	padding-right: 20px;
+	text-shadow: 1px 1px 1px #000000;
+}
+div#headerText{
+	margin-top:180px;
+	color: #ffffff;
+}
+a{
+	text-decoration: none;
+}
+div#headerButtons{
+	margin-top: 20px;
+}
+div#headerButtons a{
+	line-height: 50px;
+	border: 1px solid #ffffff;
+	display: inline-block;
+	color: #ffffff;
+	padding: 0 20px;
+	transition: all .2s ease-in-out;
+	text-shadow: 1px 1px 1px #000000;
+}
+div#headerButtons a:last-child{
+	margin-left: 20px;
+	background: #e74c3c;
+}
+div#headerButtons a:last-child:hover{
+	background: transparent;
+}
+div#headerButtons a:first-child:hover{
+	background: #e74c3c;
+}
+/* SECTION 1 BAŞLANGICI********/
+section.limitedSec{
+	width: 700px;
+	position: relative;
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+}
+section.limitedSec h1, section.limitedSec h2{
+ 	text-align: center;
+} 
+section.limitedSec img{
+	width: 613px;
+	margin-top: 50px;
+	border: 1px solid #000000;
+	padding: 10px;
+	box-sizing: border-box;
+	margin: auto;
+	
+}
+section.limitedSec article{
+	width: 613px;
+	margin:auto;
+	margin-top: 50px;
+}
+div.iconBox img{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	margin-left: 296px;
+}
+section.limitedSec article p{
+	margin-top: 20px;
+	text-align: justify;
+}
+/* SECTION 2 BAŞLANGICI********/
+
+section.unlimitedSec{
+	width: 100%;
+	position: relative;
+	background: #000000;
+	margin-top: 50px;
+}
+section.unlimitedSec div#menuContainer{
+	width: 700px;
+	height: 500px;
+	position: relative;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+section.unlimitedSec div#menuContainer img{
+	width: 175px;
+	height: 175px;
+	opacity: 0.5;
+}
+section.unlimitedSec div#menuContainer img:hover{
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	transform: scale(1.01);
+}
+section.unlimitedSec div#menuContainer div#menuLink{
+	width: 525px;
+	height: 175px;
+	position: absolute;
+	border: 1px solid #ffffff;
+	margin-top: 170px;
+	text-align: center;
+}
+section.unlimitedSec div#menuContainer div#menuLink h1{
+	color: white;
+	text-align: center;
+	margin-top: 38.5px;
+	font-size: 22px;
+}
+section.unlimitedSec div#menuContainer div#menuLink a{
+	width: 220px;
+	height: 40px;
+	border: 1px solid white;
+	display: inline-block;/*verdiğimiz yüksekliği alabilmesi için*/
+	color: white;
+	line-height: 40px;
+	transition: all .2s ease-in-out;
+
+}
+section.unlimitedSec div#menuContainer div#menuLink a:hover{
+	background: #e74c3c;
+
+}
+/* SECTION 3 BAŞLANGICI********/
+section.limitedSec div#teamContainer{
+	width: 700px;
+	margin:auto;
+	position: relative;
+}
+section.limitedSec div#teamContainer div.teamTile{
+	width: 220px;
+	height: 340px;
+	position: relative;
+	float: left;
+	margin-left: 10px;
+	overflow: hidden;
+	
+}
+section.limitedSec div#teamContainer div.teamTile img{
+	width: 220px;
+	height: 340px;
+
+}
+section.limitedSec div#teamContainer div.teamTile div.teamHover{
+	width: 220px;
+	height: 340px;
+	background: red;
+	position: absolute;
+	top: 0px;
+	left: -220px;
+	transition: all 0.5s ease;
+	background: url(../images/3.jpg);
+	opacity: 0.7;
+}
+section.limitedSec div#teamContainer div.teamTile:hover div.teamHover{
+	left: 0;
+}
+section.limitedSec div#teamContainer div.teamTile div.teamHover div.teamText{
+	background: #000000;
+	color: #ffffff;
+	line-height: 60px;
+	margin-top: 110px;
+	text-shadow: 1px 1px 1px #000000;
+}
+/*-- 4.SECTION BAŞLANGICI */
+section.unlimitedSec div.unlimitedSecContainer{
+	width: 700px;
+	height: 350px;
+	position: relative;
+	margin:auto;
+	color: #ffffff;
+	text-align: center;
+
+}
+section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft{
+	width: 700px;
+	height: 350px;
+	position: relative;
+	background: rgba(0,0,0,0.5);
+	text-shadow: 1px 1px 1px #000000;
+}
+div.unlimitedSecLeft h1{
+	font-size: 28px;
+
+	
+}
+div.unlimitedSecLeft h2{
+	font-size: 22px;
+
+}
+div.unlimitedSecLeft p{
+	width: 450px;
+	font-size: 18px;
+	line-height: 28px;
+	margin: auto;
+	margin-top: 20px;
+}
+/*Hakkımızda sayfası***********/
+section.contentContainer{
+	width: 700px;
+	margin:50px auto;
+	position: relative;
+
+}
+section.contentContainer h1{
+	text-align: center;
+}
+section.contentContainer p{
+	text-align: justify;
+	margin: 20px 0;
+	line-height: 25px;
+}
+/*İLETİŞİM SAYFASI BAŞLANGICI ******/
+div.contactParts{
+	width: 590px;
+	position: relative;
+	margin: auto;
+	
+}
+div.contactParts h2{
+	margin-bottom: 20px;
+}
+div.contactParts input.input{
+	width: 290px;
+	height: 40px;
+	position: relative;
+	border: 1px solid #95a5a6;
+	box-sizing: border-box; /*290-40px olmasını sağladık*/
+	margin-top: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+div.contactParts input.inputLeft{
+	float: left;
+}
+div.contactParts input.inputRight{
+	float: right;
+}
+div.contactParts textarea{
+	width: 590px;
+	height: 320px;
+	position: relative;
+	border:1px solid #95a5a6;
+	margin-top: 20px;
+	box-sizing: border-box;
+	padding: 10px;
+	resize: none;
+	border-radius: 10px;
+}
+
+div.contactParts input.submit{
+	width: 290px;
+	height: 40px;
+	position: relative;
+	border: 1px solid #95a5a6;
+	box-sizing: border-box; /*290-40px olmasını sağladık*/
+	margin-top: 20px;
+	background: transparent;
+	margin-left: 150px;
+	transition: all .2s ease;
+	border-radius: 10px;
+
+}
+section.unlimitedSec iframe{
+	width: 100%;
+	height: 350px;
+	position: relative;
+}
+div.contactParts input.submit:hover{
+	cursor: pointer;
+	color: white;
+	background: #e74c3c;
+	border: 1px solid #e74c3c;
+}
+/*MENÜ BÖLÜMÜ */
+section.menuContainer{
+	width: 100%;
+	height: 400px;
+	position: relative;
+	background: #ff9f43;
+}
+section.menuContainer h1{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	text-shadow: 2px 2px black;
+	padding-top: 20px;
+}
+div.resim img{
+	width: 240px;
+	padding-left: 20px;
+	float: left;
+}
+div.fiyat{
+	float: left;
+	padding-left: 120px;
+	margin-top: 40px;
+	color: white;
+	
+}
+div.fiyat a{
+	border: 2px solid #e74c3c;
+	text-align: center;
+	padding: 8px;
+	text-decoration: none;
+	color: white;
+	
+
+}
+/* REZERVASYON */
+section.reservation{
+	width: 100%;
+	height: 500px;
+	padding-left: 50px;
+}
+section.reservation input{
+	border: 2px solid #e74c3c;
+	font-size: 15px;
+	margin-top: 20px;
+	border-radius: 5px;
+	padding:10px;
+
+}
+section.reservation h1{
+	text-align: left;
+}
+section.reservation textarea{
+	resize: none;
+	width: 196px;
+	height: 50px;
+	border: 2px solid #e74c3c;
+	margin-top: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	border-radius: 5px;
+
+}
+input.rez{
+	background: transparent;
+	padding: 12px;
+	border-radius: 5px;
+	margin: 10px;
+
+}
+/*PAKET SERVİS BÖLÜMÜ */
+form.package input{
+	margin-top: 20px;
+	margin-left: 20px;
+	border: 2px solid #e74c3c;
+	border-radius: 5px;
+	padding: 10px;
+}
+form.package label{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+h1#hh{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+input.yolla{
+	background: transparent;
+	border: 2px solid #e74c3c;
+	margin-left: 35px;
+	padding: 10px;
+	margin-bottom: 40px;
+	border-radius: 5px;
+}
+
+
+
+
+/*  FOOTER BÖLÜMÜ */
+footer{
+	width: 100%;
+	position: relative;
+	background-color: #1e272e;
+}
+div#footerContainer{
+	width: 700px;
+	position: relative;
+	margin: auto;
+	padding: 100px 0;
+}
+div.footerBox{
+	width: 220px;
+	position: relative;
+	float: left;
+	text-align: center;
+	color: #ffffff;
+	margin-left: 10px;
+}
+div.footerBox h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 40px;
+	width: 220px;
+	margin-top: 45px;
+}
+div.footerBox h2{
+	font-size: 30px;
+	line-height: 60px;
+	border-bottom: 2px solid #e74c3c;
+	width: 220px;
+}
+div.footerBox p{
+	line-height: 30px;
+	text-align: left;
+	width: 220px;
+}
+div.footerBox input{
+	width: 220px;
+	height: 35px;
+	margin-top: 20px;
+	margin-right: 50px;
+}
+div#copyright{
+	width: 100%;
+	background: #000000;
+	color: #ffffff;
+	font-size: 14px;
+	padding: 20px 0;
+	text-align: center;
+}
+}
+
+/*************480pikselllllll*******************/
+/***************************************************/
+/*****************************************************/
+@media screen and (min-width: 480px) and (max-width:719px){
+	header#mainHeader{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background: url(../images/back.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+div#contentHeader{
+	width: 100%;
+	height: 300px;
+	position: relative;
+
+}
+div#headerContainer{
+	width: 460px;
+	height: 400px;
+	margin: auto;
+}
+div#ContentHeaderContainer{
+	width: 460px;
+	height: 300px;
+	margin: auto;
+
+}
+div#headerTop{
+	width: 460px;
+	height: 40px;
+	position: relative;
+}
+ul#ulTopLeft{
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+	display: none;
+}
+div#topRight{
+	height: 40px;
+	position: relative;
+	float: right;
+	display: none;
+}
+
+nav{
+	width: 100%;
+	height: 60px;
+	position: relative;
+	background: rgba(0,0,0,0.5);
+
+}
+div#navContainer{
+	width: 460px;
+	height: 60px;
+	position: relative;
+	margin: auto;
+}
+div#navLogo{
+	font-family:'Bungee',cursive;
+	color: #ffffff;
+	font-size: 30px;
+	line-height: 80px;
+	display: inline;
+	float: left;
+}
+ul#ulNavRight{
+	list-style-type: none;
+	display: inline-block;
+	float: right;
+	display: none;
+}
+
+/* Desktop Nav
+ul#ulNavRight li{
+	display: inline-block;
+	line-height: 80px;
+	margin-left: 20px;
+}
+ul#ulNavRight li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+ul#ulNavRight li a:hover{
+	color: #95a5a6;
+}
+*********************************/
+/*NAV MOBILE***********/
+div#navMobileButton{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	float: right;
+	background: url(../images/menu.jpeg);
+	margin-top: 10px;
+}
+ul#navMobile{
+	width: 460px;
+	position: absolute;
+	top:60px;
+	background: #e74c3c;
+	display: none;
+	z-index: 1;
+}
+ul#navMobile li{
+	text-align: center;
+	border-bottom: 1px solid #ffffff;
+
+}
+ul#navMobile li:last-child{
+	border:0;
+}
+ul#navMobile a:hover{
+	background:#ffffff;
+	color: #e74c3c;
+}
+ul#navMobile li a{
+	width: 460px;
+	line-height: 35px;
+	color: white;
+	display: block;
+}
+div#headerText h1{
+	line-height: 50px;
+	font-size: 25px;
+	text-shadow: 5px 5px 10px #000000;
+}
+div#headerText h2{
+	line-height: 50px;
+	font-size: 25px;
+	text-shadow: 5px 5px 10px #000000;
+}
+div#headerText p{
+	line-height: 32px;
+	font-size: 18px;
+	display: inline-block;
+	background: rgba(0,0,0,0.5);
+	padding-right: 20px;
+	text-shadow: 1px 1px 1px #000000;
+}
+div#headerText{
+	margin-top:180px;
+	color: #ffffff;
+}
+a{
+	text-decoration: none;
+}
+div#headerButtons{
+	margin-top: 20px;
+}
+div#headerButtons a{
+	line-height: 40px;
+	border: 1px solid #ffffff;
+	display: inline-block;
+	color: #ffffff;
+	padding: 0 10px;
+	transition: all .2s ease-in-out;
+	text-shadow: 1px 1px 1px #000000;
+}
+div#headerButtons a:last-child{
+	margin-left: 20px;
+	background: #e74c3c;
+}
+div#headerButtons a:last-child:hover{
+	background: transparent;
+}
+div#headerButtons a:first-child:hover{
+	background: #e74c3c;
+}
+/* SECTION 1 BAŞLANGICI********/
+section.limitedSec{
+	width: 460px;
+	position: relative;
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+}
+section.limitedSec h1, section.limitedSec h2{
+ 	text-align: center;
+} 
+section.limitedSec img{
+	width: 400px;
+	margin-top: 50px;
+	border: 1px solid #000000;
+	padding: 10px;
+	box-sizing: border-box;
+	margin: auto;
+	
+}
+section.limitedSec article{
+	width: 400px;
+	margin:auto;
+	margin-top: 50px;
+}
+div.iconBox img{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	margin-left: 296px;
+}
+section.limitedSec article p{
+	margin-top: 20px;
+	text-align: justify;
+}
+/* SECTION 2 BAŞLANGICI********/
+
+section.unlimitedSec{
+	width: 100%;
+	position: relative;
+	background: #000000;
+	margin-top: 50px;
+}
+section.unlimitedSec div#menuContainer{
+	width: 460px;
+	height: 300px;
+	position: relative;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+section.unlimitedSec div#menuContainer img{
+	width: 115px;
+	height: 115px;
+	opacity: 0.5;
+}
+section.unlimitedSec div#menuContainer img:hover{
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	transform: scale(1.01);
+}
+section.unlimitedSec div#menuContainer div#menuLink{
+	width: 345px;
+	height: 115px;
+	position: absolute;
+	border: 1px solid #ffffff;
+	margin-top: 90px;
+	text-align: center;
+}
+section.unlimitedSec div#menuContainer div#menuLink h1{
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 20px;
+}
+section.unlimitedSec div#menuContainer div#menuLink a{
+	width: 160px;
+	height: 30px;
+	border: 1px solid white;
+	display: inline-block;/*verdiğimiz yüksekliği alabilmesi için*/
+	color: white;
+	line-height: 30px;
+	transition: all .2s ease-in-out;
+
+}
+section.unlimitedSec div#menuContainer div#menuLink a:hover{
+	background: #e74c3c;
+
+}
+/* SECTION 3 BAŞLANGICI********/
+section.limitedSec div#teamContainer{
+	width: 460px;
+	margin:auto;
+	position: relative;
+}
+section.limitedSec div#teamContainer div.teamTile{
+	width: 220px;
+	height: 340px;
+	position: relative;
+	overflow: hidden;
+	margin: auto;
+	
+}
+section.limitedSec div#teamContainer div.teamTile img{
+	width: 220px;
+	height: 340px;
+
+}
+section.limitedSec div#teamContainer div.teamTile div.teamHover{
+	width: 220px;
+	height: 340px;
+	background: red;
+	position: absolute;
+	top: 0px;
+	left: -220px;
+	transition: all 0.5s ease;
+	background: url(../images/3.jpg);
+	opacity: 0.7;
+}
+section.limitedSec div#teamContainer div.teamTile:hover div.teamHover{
+	left: 0;
+}
+section.limitedSec div#teamContainer div.teamTile div.teamHover div.teamText{
+	background: #000000;
+	color: #ffffff;
+	line-height: 60px;
+	margin-top: 110px;
+	text-shadow: 1px 1px 1px #000000;
+}
+/*-- 4.SECTION BAŞLANGICI */
+section.unlimitedSec div.unlimitedSecContainer{
+	width: 460px;
+	height: 300px;
+	position: relative;
+	margin:auto;
+	color: #ffffff;
+	text-align: center;
+
+}
+section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft{
+	width: 460px;
+	height: 300px;
+	position: relative;
+	background: rgba(0,0,0,0.5);
+	text-shadow: 1px 1px 1px #000000;
+}
+div.unlimitedSecLeft h1{
+	font-size: 24px;
+
+	
+}
+div.unlimitedSecLeft h2{
+	font-size: 22px;
+
+}
+div.unlimitedSecLeft p{
+	width: 450px;
+	font-size: 18px;
+	line-height: 28px;
+	margin: auto;
+	margin-top: 10px;
+}
+/*Hakkımızda sayfası***********/
+section.contentContainer{
+	width: 460px;
+	margin:50px auto;
+	position: relative;
+
+}
+section.contentContainer h1{
+	text-align: center;
+}
+section.contentContainer p{
+	text-align: justify;
+	margin: 20px 0;
+}
+/*İLETİŞİM SAYFASI BAŞLANGICI ******/
+div.contactParts{
+	width: 460px;
+	position: relative;
+	margin: auto;
+	
+}
+div.contactParts h2{
+	margin-bottom: 20px;
+}
+div.contactParts input.input{
+	width: 290px;
+	height: 40px;
+	position: relative;
+	border: 1px solid #95a5a6;
+	box-sizing: border-box; /*290-40px olmasını sağladık*/
+	margin-top: 20px;
+	text-align: center;
+	border-radius: 10px;
+	display: block;
+	margin: 25px auto 0;
+}
+div.contactParts input.inputLeft{
+	display: block;
+	margin: 25px auto 0;
+}
+div.contactParts input.inputRight{
+	margin: 25px auto 0;
+	display: block;
+}
+div.contactParts textarea{
+	width: 460px;
+	height: 230px;
+	position: relative;
+	border:1px solid #95a5a6;
+	margin-top: 20px;
+	box-sizing: border-box;
+	padding: 10px;
+	resize: none;
+	border-radius: 10px;
+}
+
+div.contactParts input.submit{
+	width: 290px;
+	height: 40px;
+	position: relative;
+	border: 1px solid #95a5a6;
+	box-sizing: border-box; /*290-40px olmasını sağladık*/
+	display: block;
+	margin: 25px auto 0;
+	background: transparent;
+	transition: all .2s ease;
+	border-radius: 10px;
+
+}
+section.unlimitedSec iframe{
+	width: 100%;
+	height: 250px;
+	position: relative;
+}
+div.contactParts input.submit:hover{
+	cursor: pointer;
+	color: white;
+	background: #e74c3c;
+	border: 1px solid #e74c3c;
+}
+/*MENÜ BÖLÜMÜ */
+section.menuContainer{
+	width: 100%;
+	height: 400px;
+	position: relative;
+	background: #ff9f43;
+}
+section.menuContainer h1{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	text-shadow: 2px 2px black;
+	padding-top: 20px;
+}
+div.resim img{
+	width: 240px;
+	padding-left: 20px;
+	float: left;
+}
+div.fiyat{
+	float: left;
+	padding-left: 120px;
+	margin-top: 40px;
+	color: white;
+	
+}
+div.fiyat a{
+	border: 2px solid #e74c3c;
+	text-align: center;
+	padding: 8px;
+	text-decoration: none;
+	color: white;
+	
+
+}
+/* REZERVASYON */
+section.reservation{
+	width: 100%;
+	height: 500px;
+	padding-left: 50px;
+}
+section.reservation input{
+	border: 2px solid #e74c3c;
+	font-size: 15px;
+	margin-top: 20px;
+	border-radius: 5px;
+	padding:10px;
+
+}
+section.reservation h1{
+	text-align: left;
+}
+section.reservation textarea{
+	resize: none;
+	width: 196px;
+	height: 50px;
+	border: 2px solid #e74c3c;
+	margin-top: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	border-radius: 5px;
+
+}
+input.rez{
+	background: transparent;
+	padding: 12px;
+	border-radius: 5px;
+	margin: 10px;
+
+}
+/*PAKET SERVİS BÖLÜMÜ */
+form.package input{
+	margin-top: 20px;
+	margin-left: 20px;
+	border: 2px solid #e74c3c;
+	border-radius: 5px;
+	padding: 10px;
+}
+form.package label{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+h1#hh{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+input.yolla{
+	background: transparent;
+	border: 2px solid #e74c3c;
+	margin-left: 35px;
+	padding: 10px;
+	margin-bottom: 40px;
+	border-radius: 5px;
+}
+
+
+
+
+/*  FOOTER BÖLÜMÜ */
+footer{
+	width: 100%;
+	position: relative;
+	background-color: #1e272e;
+}
+div#footerContainer{
+	width: 460px;
+	position: relative;
+	margin: auto;
+	padding: 50px 0;
+}
+div.footerBox{
+	width: 300px;
+	position: relative;
+	text-align: center;
+	color: #ffffff;
+	margin: auto;
+}
+div.footerBox h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	width: 220px;
+	margin-top: 45px;
+}
+div.footerBox h2{
+	font-size: 20px;
+	line-height: 60px;
+	border-bottom: 2px solid #e74c3c;
+	width: 300px;
+	margin-top: 25px auto 0;
+}
+div.footerBox p{
+	line-height: 30px;
+	text-align: left;
+	width: 300px;
+}
+div.footerBox input{
+	width: 300px;
+	height: 35px;
+	margin-top: 20px;
+	margin-right: 50px;
+}
+div#copyright{
+	width: 100%;
+	background: #000000;
+	color: #ffffff;
+	font-size: 14px;
+	padding: 20px 0;
+	text-align: center;
+}
+
+}
+
+/***************** 320px ekran ********************/
+/***************************************************/
+/****************************************************/
+@media screen and (min-width: 320px) and (max-width:479px){
+
+ header#mainHeader{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background: url(../images/back.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+div#contentHeader{
+	width: 100%;
+	height: 300px;
+	position: relative;
+
+}
+div#headerContainer{
+	width:300px;
+	height: 300px;
+	margin: auto;
+}
+div#ContentHeaderContainer{
+	width: 300px;
+	height: 300px;
+	margin: auto;
+
+}
+div#headerTop{
+	width: 300px;
+	height: 40px;
+	position: relative;
+}
+ul#ulTopLeft{
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+	display: none;
+}
+div#topRight{
+	height: 40px;
+	position: relative;
+	float: right;
+	display: none;
+}
+
+nav{
+	width: 100%;
+	height: 60px;
+	position: relative;
+	background: rgba(0,0,0,0.5);
+
+}
+div#navContainer{
+	width: 300px;
+	height: 50px;
+	position: relative;
+	margin: auto;
+}
+div#navLogo{
+	font-family:'Bungee',cursive;
+	color: #ffffff;
+	font-size: 30px;
+	line-height: 80px;
+	display: inline;
+	float: left;
+}
+ul#ulNavRight{
+	list-style-type: none;
+	display: inline-block;
+	float: right;
+	display: none;
+}
+
+/* Desktop Nav
+ul#ulNavRight li{
+	display: inline-block;
+	line-height: 80px;
+	margin-left: 20px;
+}
+ul#ulNavRight li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+ul#ulNavRight li a:hover{
+	color: #95a5a6;
+}
+*********************************/
+/*NAV MOBILE***********/
+div#navMobileButton{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	float: right;
+	background: url(../images/menu.jpeg);
+	margin-top: 5px;
+}
+ul#navMobile{
+	width: 300px;
+	position: absolute;
+	top:45px;
+	background: #e74c3c;
+	display: none;
+	z-index: 1;
+}
+ul#navMobile li{
+	text-align: center;
+	border-bottom: 1px solid #ffffff;
+
+}
+ul#navMobile li:last-child{
+	border:0;
+}
+ul#navMobile a:hover{
+	background:#ffffff;
+	color: #e74c3c;
+}
+ul#navMobile li a{
+	width: 300px;
+	line-height: 35px;
+	color: white;
+	display: block;
+}
+div#headerText h1{
+	line-height: 40px;
+	font-size: 18px;
+	text-shadow: 5px 5px 10px #000000;
+}
+div#headerText h2{
+	line-height: 40px;
+	font-size: 20px;
+	text-shadow: 5px 5px 10px #000000;
+}
+div#headerText p{
+	font-size: 18px;
+	display: inline-block;
+	background: rgba(0,0,0,0.5);
+	padding-right: 20px;
+	text-shadow: 1px 1px 1px #000000;
+}
+div#headerText{
+	margin-top:100px;
+	color: #ffffff;
+}
+a{
+	text-decoration: none;
+}
+div#headerButtons{
+	margin-top: 20px;
+}
+div#headerButtons a{
+	line-height: 35px;
+	border: 1px solid #ffffff;
+	display: inline-block;
+	color: #ffffff;
+	padding: 0 10px;
+	transition: all .2s ease-in-out;
+	text-shadow: 1px 1px 1px #000000;
+}
+div#headerButtons a:last-child{
+	margin-left: 20px;
+	background: #e74c3c;
+}
+div#headerButtons a:last-child:hover{
+	background: transparent;
+}
+div#headerButtons a:first-child:hover{
+	background: #e74c3c;
+}
+/* SECTION 1 BAŞLANGICI********/
+section.limitedSec{
+	width: 300px;
+	position: relative;
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+}
+section.limitedSec h1, section.limitedSec h2{
+ 	text-align: center;
+ 	font-size: 20px;
+ 	line-height: 40px;
+} 
+section.limitedSec img{
+	width: 300px;
+	margin-top: 50px;
+	border: 1px solid #000000;
+	padding: 10px;
+	box-sizing: border-box;
+	margin: auto;
+	
+}
+section.limitedSec article{
+	width: 300px;
+	margin:auto;
+	margin-top: 50px;
+}
+div.iconBox img{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	margin-left: 0px;
+}
+section.limitedSec article p{
+	margin-top: 20px;
+	text-align: justify;
+}
+/* SECTION 2 BAŞLANGICI********/
+
+section.unlimitedSec{
+	width: 100%;
+	position: relative;
+	background: #000000;
+	margin-top: 50px;
+}
+section.unlimitedSec div#menuContainer{
+	width: 300px;
+	position: relative;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+section.unlimitedSec div#menuContainer img{
+	width: 115px;
+	height: 115px;
+	opacity: 0.5;
+}
+section.unlimitedSec div#menuContainer img:hover{
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	transform: scale(1.01);
+}
+section.unlimitedSec div#menuContainer div#menuLink{
+	width: 300px;
+	position: absolute;
+	text-align: center;
+}
+section.unlimitedSec div#menuContainer div#menuLink h1{
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 200px;
+	line-height: 60px;
+}
+section.unlimitedSec div#menuContainer div#menuLink a{
+	width: 160px;
+	height: 30px;
+	border: 1px solid white;
+	display: inline-block;/*verdiğimiz yüksekliği alabilmesi için*/
+	color: white;
+	line-height: 30px;
+	transition: all .2s ease-in-out;
+
+}
+section.unlimitedSec div#menuContainer div#menuLink a:hover{
+	background: #e74c3c;
+
+}
+/* SECTION 3 BAŞLANGICI********/
+section.limitedSec div#teamContainer{
+	width: 300px;
+	margin:auto;
+	position: relative;
+}
+section.limitedSec div#teamContainer div.teamTile{
+	width: 220px;
+	height: 340px;
+	position: relative;
+	overflow: hidden;
+	margin: auto;
+	
+}
+section.limitedSec div#teamContainer div.teamTile img{
+	width: 220px;
+	height: 340px;
+
+}
+section.limitedSec div#teamContainer div.teamTile div.teamHover{
+	width: 220px;
+	height: 340px;
+	background: red;
+	position: absolute;
+	top: 0px;
+	left: -220px;
+	transition: all 0.5s ease;
+	background: url(../images/3.jpg);
+	opacity: 0.7;
+}
+section.limitedSec div#teamContainer div.teamTile:hover div.teamHover{
+	left: 0;
+}
+section.limitedSec div#teamContainer div.teamTile div.teamHover div.teamText{
+	background: #000000;
+	color: #ffffff;
+	line-height: 60px;
+	margin-top: 110px;
+	text-shadow: 1px 1px 1px #000000;
+}
+/*-- 4.SECTION BAŞLANGICI */
+section.unlimitedSec div.unlimitedSecContainer{
+	width: 300px;
+	height: 300px;
+	position: relative;
+	margin:auto;
+	color: #ffffff;
+	text-align: center;
+
+}
+section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft{
+	width: 300px;
+	height: 300px;
+	position: relative;
+	background: rgba(0,0,0,0.5);
+	text-shadow: 1px 1px 1px #000000;
+	padding: 20px 0;
+}
+div.unlimitedSecLeft h1{
+	font-size: 18px;
+
+	
+}
+div.unlimitedSecLeft h2{
+	font-size: 18px;
+
+}
+div.unlimitedSecLeft p{
+	width: 280px;
+	font-size: 15px;
+	margin: auto;
+	margin: 10px auto 0;
+
+}
+/*Hakkımızda sayfası***********/
+section.contentContainer{
+	width: 300px;
+	margin:50px auto;
+	position: relative;
+
+}
+section.contentContainer h1{
+	text-align: center;
+}
+section.contentContainer p{
+	text-align: justify;
+	margin: 20px 0;
+}
+/*İLETİŞİM SAYFASI BAŞLANGICI ******/
+div.contactParts{
+	width: 300px;
+	position: relative;
+	margin: 50px auto 0;
+	
+}
+div.contactParts h2{
+	margin-bottom: 20px;
+}
+div.contactParts input.input{
+	width: 300px;
+	height: 35px;
+	position: relative;
+	border: 1px solid #95a5a6;
+	box-sizing: border-box; /*290-40px olmasını sağladık*/
+	margin-top: 20px;
+	text-align: center;
+	border-radius: 10px;
+	display: block;
+	margin: 25px auto 0;
+}
+div.contactParts input.inputLeft{
+	display: block;
+	margin: 25px auto 0;
+}
+div.contactParts input.inputRight{
+	margin: 25px auto 0;
+	display: block;
+}
+div.contactParts textarea{
+	width: 300px;
+	height: 200px;
+	position: relative;
+	border:1px solid #95a5a6;
+	margin-top: 20px;
+	box-sizing: border-box;
+	padding: 10px;
+	resize: none;
+	border-radius: 10px;
+}
+
+div.contactParts input.submit{
+	width: 300px;
+	height: 35px;
+	position: relative;
+	border: 1px solid #95a5a6;
+	box-sizing: border-box; /*290-40px olmasını sağladık*/
+	display: block;
+	margin: 25px auto 0;
+	background: transparent;
+	transition: all .2s ease;
+	border-radius: 10px;
+
+}
+section.unlimitedSec iframe{
+	width: 100%;
+	height: 250px;
+	position: relative;
+}
+div.contactParts input.submit:hover{
+	cursor: pointer;
+	color: white;
+	background: #e74c3c;
+	border: 1px solid #e74c3c;
+}
+/*MENÜ BÖLÜMÜ */
+section.menuContainer{
+	width: 100%;
+	height: 400px;
+	position: relative;
+	background: #ff9f43;
+}
+section.menuContainer h1{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	text-shadow: 2px 2px black;
+	padding-top: 20px;
+}
+div.resim img{
+	width: 240px;
+	padding-left: 20px;
+	float: left;
+}
+div.fiyat{
+	float: left;
+	padding-left: 120px;
+	margin-top: 40px;
+	color: white;
+	
+}
+div.fiyat a{
+	border: 2px solid #e74c3c;
+	text-align: center;
+	padding: 8px;
+	text-decoration: none;
+	color: white;
+	
+
+}
+/* REZERVASYON */
+section.reservation{
+	width: 100%;
+	height: 500px;
+	padding-left: 50px;
+}
+section.reservation input{
+	border: 2px solid #e74c3c;
+	font-size: 15px;
+	margin-top: 20px;
+	border-radius: 5px;
+	padding:10px;
+
+}
+section.reservation h1{
+	text-align: left;
+}
+section.reservation textarea{
+	resize: none;
+	width: 196px;
+	height: 50px;
+	border: 2px solid #e74c3c;
+	margin-top: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	border-radius: 5px;
+
+}
+input.rez{
+	background: transparent;
+	padding: 12px;
+	border-radius: 5px;
+	margin: 10px;
+
+}
+/*PAKET SERVİS BÖLÜMÜ */
+form.package input{
+	margin-top: 20px;
+	margin-left: 20px;
+	border: 2px solid #e74c3c;
+	border-radius: 5px;
+	padding: 10px;
+}
+form.package label{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+h1#hh{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+input.yolla{
+	background: transparent;
+	border: 2px solid #e74c3c;
+	margin-left: 35px;
+	padding: 10px;
+	margin-bottom: 40px;
+	border-radius: 5px;
+}
+
+
+
+
+/*  FOOTER BÖLÜMÜ */
+footer{
+	width: 100%;
+	position: relative;
+	background-color: #1e272e;
+}
+div#footerContainer{
+	width: 300px;
+	position: relative;
+	margin: auto;
+	padding: 50px 0;
+}
+div.footerBox{
+	width: 300px;
+	position: relative;
+	text-align: center;
+	color: #ffffff;
+	margin: auto;
+}
+div.footerBox h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	width: 220px;
+
+}
+div.footerBox h2{
+	font-size: 20px;
+	line-height: 60px;
+	border-bottom: 2px solid #e74c3c;
+	width: 300px;
+	margin-top: 25px auto 0;
+}
+div.footerBox p{
+	line-height: 30px;
+	text-align: left;
+	width: 300px;
+}
+div.footerBox input{
+	width: 300px;
+	height: 35px;
+	margin-top: 20px;
+	margin-right: 50px;
+}
+div#copyright{
+	width: 100%;
+	background: #000000;
+	color: #ffffff;
+	font-size: 14px;
+	padding: 20px 0;
+	text-align: center;
+}
+
+}
